@@ -89,11 +89,11 @@ class Porfolio extends Component {
                                     <h2>Work I Have Done</h2>
                                 </div>
                                 <ul>
-                                    <li><a data-filter="*" href="#" className="current" onClick={allElement}>All</a></li>
-                                    <li><a data-filter=".Web-Design" href="#" onClick={webDesign}>Web Design</a></li>
-                                    <li><a data-filter=".Print-Design" href="#" onClick={printDesign}>Print Design</a></li>
-                                    <li><a data-filter=".Web-Application" href="#" onClick={webApp}>Web Application</a></li>               
-                                    <li><a data-filter=".Photography" href="#" onClick={Photography}>Photography</a></li> 
+                                    <li><a data-filter="*" href="https://www.facebook.com/lexxus11/" className="current" onClick={allElement}>All</a></li>
+                                    <li><a data-filter=".Web-Design" href="https://www.facebook.com/lexxus11/" onClick={webDesign}>Web Design</a></li>
+                                    <li><a data-filter=".Print-Design" href="https://www.facebook.com/lexxus11/" onClick={printDesign}>Print Design</a></li>
+                                    <li><a data-filter=".Web-Application" href="https://www.facebook.com/lexxus11/" onClick={webApp}>Web Application</a></li>               
+                                    <li><a data-filter=".Photography" href="https://www.facebook.com/lexxus11/" onClick={Photography}>Photography</a></li> 
                                 </ul>
                             </div>
                             <div className="gallery-container gallery-fancybox masonry-gallery tumho-masonary">
@@ -104,7 +104,7 @@ class Porfolio extends Component {
                                     }>
                                    <img src={Gallery_1} className="img img-responsive" alt="" />
                                     <div className="icon">
-                                        <a href="#" className="view-icon">
+                                        <a href="https://www.facebook.com/lexxus11/" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -117,7 +117,7 @@ class Porfolio extends Component {
                                         
                                     <img src={Gallery_2} alt="" className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="#" className="view-icon">
+                                        <a href="https://www.facebook.com/lexxus11/" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -128,7 +128,7 @@ class Porfolio extends Component {
                                     
                                     <img src={Gallery_6} alt="" className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="#" className="view-icon">
+                                        <a href="https://www.facebook.com/lexxus11/" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -138,7 +138,7 @@ class Porfolio extends Component {
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <img src={Gallery_5} alt="" className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="#" className="view-icon">
+                                        <a href="https://www.facebook.com/lexxus11/" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -149,7 +149,7 @@ class Porfolio extends Component {
                                     
                                     <img src={Gallery_3} alt="" className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="#" className="view-icon">
+                                        <a href="https://www.facebook.com/lexxus11/" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
@@ -160,7 +160,7 @@ class Porfolio extends Component {
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <img src={Gallery_4} alt="" className="img img-responsive"/>
                                     <div className="icon">
-                                        <a href="#" className="view-icon">
+                                        <a href="https://www.facebook.com/lexxus11/" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>

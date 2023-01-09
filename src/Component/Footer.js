@@ -12,7 +12,7 @@ class Footer extends Component {
                         <div className="col-12">
                             <div className="footer-image">
                                 <a href="index.html">
-                                    <img src={Logo}/>
+                                    <img src={Logo} alt="W"/>
                                 </a>
                             </div>
                         </div>
@@ -20,27 +20,27 @@ class Footer extends Component {
                             <div className="footer-menu">
                                 <ul className="d-flex " >
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/lexxus11/">
                                             <FontAwesomeIcon icon={faFacebookF} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/lexxus11/">
                                             <FontAwesomeIcon icon={faTwitter} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/lexxus11/">
                                             <FontAwesomeIcon icon={faInstagram} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/lexxus11/">
                                             <FontAwesomeIcon icon={faPinterestP} />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/lexxus11/">
                                             <FontAwesomeIcon icon={faYoutube} />
                                         </a>    
                                     </li>
