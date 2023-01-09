@@ -41,17 +41,6 @@ class Porfolio extends Component {
             });
         }
 
-        const printDesign = event => {
-            event.preventDefault();
-            this.setState({
-                onPrintDesign: true,
-                onWebDesign: false,
-                onWebApp: false,
-                onPhotography: false,
-                isOpen: true,
-            });
-        }
-
         const webApp = event => {
             event.preventDefault();
             this.setState({
