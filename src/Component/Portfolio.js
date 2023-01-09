@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Gallery_1 from '../Assets/Images/gallery/img-1.jpg';
-import Gallery_2 from '../Assets/Images/gallery/img-2.jpg';
-import Gallery_3 from '../Assets/Images/gallery/img-3.jpg';
-import Gallery_4 from '../Assets/Images/gallery/img-4.jpg';
-import Gallery_5 from '../Assets/Images/gallery/img-5.jpg';
-import Gallery_6 from '../Assets/Images/gallery/img-6.jpg';
+import Gallery_1 from '../Assets/Images/gallery/GNY-web-370x400-DisTicaret.jpg';
+import Gallery_2 from '../Assets/Images/gallery/VoIP_1.jpg-1-370x400.png';
+import Gallery_3 from '../Assets/Images/gallery/network-maintenance-370x400.png';
+import Gallery_4 from '../Assets/Images/gallery/web-370x400.jpg';
+import Gallery_5 from '../Assets/Images/gallery/vicidial2-370x400.png';
+import Gallery_6 from '../Assets/Images/gallery/Image-for-Workgrid-370-x-400.webp';
 
 
 class Portfolio extends Component {

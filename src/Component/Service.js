@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import serviceImg_1 from '../Assets/Images/1.jpg';
-import serviceImg_2 from '../Assets/Images/2.jpg';
-import serviceImg_3 from '../Assets/Images/3.jpg';
-import serviceImg_4 from '../Assets/Images/4.jpg';
-import serviceImg_5 from '../Assets/Images/5.jpg';
-import serviceImg_6 from '../Assets/Images/6.jpg';
+import serviceImg_1 from '../Assets/Images/gallery/GNY-web-370x400-DisTicaret.jpg';
+import serviceImg_2 from '../Assets/Images/gallery/VoIP_1.jpg-1-370x400.png';
+import serviceImg_3 from '../Assets/Images/gallery/network-maintenance-370x400.png';
+import serviceImg_4 from '../Assets/Images/gallery/Image-for-Workgrid-370-x-400.webp';
+import serviceImg_5 from '../Assets/Images/gallery/web-370x400.jpg';
+import serviceImg_6 from '../Assets/Images/gallery/vicidial2-370x400.png';
 
 class Service extends Component {
     render () {
