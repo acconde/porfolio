@@ -12,19 +12,18 @@ class Contact extends Component {
                         <div className="col-lg-5 col-md-5 col-sm-5">
                             <div className="contact-page-item">
                                 <h2>My Contacts</h2>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                <p>I am always ready to be a part of your project! Message me now and lest build awesome stuffs.</p>
                                 <div className="adress">
                                     <h3>Address</h3>
-                                    <span>245 King Street, Touterie Victoria 8520 Australia</span>
+                                    <span>Brgy. Paya, Giporlos, Eastern Samar, 6811</span>
                                 </div>
                                 <div className="phone">
                                     <h3>Phone</h3>
-                                    <span>0-123-456-7890</span>
-                                    <span>0-123-456-7890</span>
+                                    <span>+63-917-116-5529</span>
                                 </div>
                                 <div className="email">
                                     <h3>Email</h3>
-                                    <span>sample@gmail.com</span>
+                                    <span>alexiscellconde@gmail.com</span>
                                 </div>
                             </div>
                         </div>
@@ -66,8 +65,7 @@ class Contact extends Component {
                     <div className="row">
                         <div className="col col-xs-12">
                             <div className="contact-map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57763.58882182253!2d55.38442113562169!3d25.195692423227655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2z4Kam4KeB4Kas4Ka-4KaHIC0g4Kam4KeB4Kas4Ka-4KaHIOCmhuCmruCmv-CmsOCmvuCmpCAtIOCmuOCmguCmr-CngeCmleCnjeCmpCDgpobgprDgpqwg4KaG4Kau4Ka_4Kaw4Ka-4Kak!5e0!3m2!1sbn!2sbd!4v1540725271741" />
-                               
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1177.8331134826765!2d125.48676154448304!3d11.117248335091444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xffc1453dadfe5da9!2sAlexis%20Graphix%20and%20Computer%20Data%20System!5e1!3m2!1sen!2sph!4v1667551382436!5m2!1sen!2sph"/>
                             </div>
                         </div>
                     </div>

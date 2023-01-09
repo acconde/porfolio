@@ -13,7 +13,6 @@ class Porfolio extends Component {
 
     state = {
         onWebDesign: false,
-        onPrintDesign: false,
         onWebApp: false,
         onPhotography: false,
         isOpen : false,
@@ -91,7 +90,6 @@ class Porfolio extends Component {
                                 <ul>
                                     <li><a data-filter="*" href="https://www.facebook.com/lexxus11/" className="current" onClick={allElement}>All</a></li>
                                     <li><a data-filter=".Web-Design" href="https://www.facebook.com/lexxus11/" onClick={webDesign}>Web Design</a></li>
-                                    <li><a data-filter=".Print-Design" href="https://www.facebook.com/lexxus11/" onClick={printDesign}>Print Design</a></li>
                                     <li><a data-filter=".Web-Application" href="https://www.facebook.com/lexxus11/" onClick={webApp}>Web Application</a></li>               
                                     <li><a data-filter=".Photography" href="https://www.facebook.com/lexxus11/" onClick={Photography}>Photography</a></li> 
                                 </ul>
