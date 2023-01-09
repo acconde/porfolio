@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import serviceImg_1 from '../Assets/Images/1.jpg';
 import serviceImg_2 from '../Assets/Images/2.jpg';
 import serviceImg_3 from '../Assets/Images/3.jpg';
