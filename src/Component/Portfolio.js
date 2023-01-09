@@ -9,7 +9,7 @@ import Gallery_5 from '../Assets/Images/gallery/img-5.jpg';
 import Gallery_6 from '../Assets/Images/gallery/img-6.jpg';
 
 
-class Porfolio extends Component {
+class Portfolio extends Component {
 
     state = {
         onWebDesign: false,
@@ -161,4 +161,4 @@ class Porfolio extends Component {
     }
 }
 
-export default Porfolio;
+export default Portfolio;

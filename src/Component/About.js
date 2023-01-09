@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import aboutImg from '../Assets/Images/about.png';
+import aboutImg from '../Assets/Images/avataaars.png';
 
 class About extends Component {
     render() {
@@ -13,8 +13,8 @@ class About extends Component {
                                     <span>Full Stack Web Developer</span>
                                     <h2>About Me</h2>
                                 </div>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
-                                <p>There isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary you need to be sure</p>
+                                <p>There is no such thing as impossible for me, I am eager to work hard as it will eliminate the impossible task, and I love challenges.</p>
+                                <p>I am the type of person that may not able to learn fast, but can deliver the task at it finest level as possible.</p>
                                 
                                 <div className="btns">
                                     <a href="google.com" className="theme-btn">Download CV</a>
