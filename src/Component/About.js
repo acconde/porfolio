@@ -17,13 +17,13 @@ class About extends Component {
                                 <p>There isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary you need to be sure</p>
                                 
                                 <div className="btns">
-                                    <a href="#" className="theme-btn">Download CV</a>
+                                    <a href="google.com" className="theme-btn">Download CV</a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-5 col-lg-5">
                             <div className="hx-about-img">
-                                <img src={aboutImg}/>
+                                <img src={aboutImg} alt="about"/>
                             </div>
                         </div>
                     </div>

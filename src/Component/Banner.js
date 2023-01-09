@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { faGithub, faLinkedinIn, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedinIn, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slides from '../Assets/Images/slide-2.jpg';
 
@@ -10,7 +10,7 @@ class Banner extends Component {
                 <div className="hero-slider">
                     <div className="slide">
                         <div className="slider-image">
-                            <img src={Slides}/>
+                            <img src={Slides} alt="name"/>
                         </div>
                         <div className="container">
                             <div className="row">
