@@ -50,7 +50,7 @@ class Footer extends Component {
                         </div>
                         <div className="col-12">
                             <div className="footer-sub">
-                                <p><i className="fa fa-copyright"></i>Copyright - 2020<span> Developed by AutWorks</span></p>
+                                <p><i className="fa fa-copyright"></i>Copyright - 2023<span> Developed by Alexis Conde</span></p>
                             </div>
                         </div>
                     </div>
