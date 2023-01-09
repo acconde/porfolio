@@ -22,7 +22,7 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_2}/>
+                                        <img src={serviceImg_2} alt="W"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <p>I am Expert In</p>
@@ -35,7 +35,7 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_1}/>
+                                        <img src={serviceImg_1} alt="W"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <p>I am Expert In</p>
@@ -48,7 +48,7 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_3}/>
+                                        <img src={serviceImg_3} alt="W"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <p>I am Expert In</p>
@@ -61,7 +61,7 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_4}/>
+                                        <img src={serviceImg_4} alt="W"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <p>I am Expert In</p>
@@ -74,7 +74,7 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_5}/>
+                                        <img src={serviceImg_5} alt="W"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <p>I am Expert In</p>
@@ -87,7 +87,7 @@ class Service extends Component {
                             <div className="hx-service-item">
                                 <div className="hx-service-single">
                                     <div className="service-img">
-                                        <img src={serviceImg_6}/>
+                                        <img src={serviceImg_6} alt="W"/>
                                     </div>
                                     <div className="hx-service-content">
                                         <p>I am Expert In</p>
