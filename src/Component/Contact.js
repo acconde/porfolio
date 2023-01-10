@@ -23,7 +23,7 @@ class Contact extends Component {
                                 </div>
                                 <div className="email">
                                     <h3>Email</h3>
-                                    <span>alexiscellconde@gmail.com</span>
+                                    <span><a href="mailto:alexiscellconde@gmail.com">alexiscellconde@gmail.com</a></span>
                                 </div>
                             </div>
                         </div>
