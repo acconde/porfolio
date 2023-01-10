@@ -54,6 +54,7 @@ class Banner extends Component {
                         </li>
                     </ul>
                 </div>
+                <div class="scroll-down"></div>
             </section>
         )
     }
