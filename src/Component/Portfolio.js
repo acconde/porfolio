@@ -14,7 +14,6 @@ class Portfolio extends Component {
     state = {
         onWebDesign: false,
         onWebApp: false,
-        onPhotography: false,
         isOpen : false,
     }
 
@@ -26,7 +25,6 @@ class Portfolio extends Component {
                 onWebApp: true,
                 onPrintDesign: true,
                 onWebDesign: true,
-                onPhotography: true,
             });
         }
 
@@ -36,7 +34,6 @@ class Portfolio extends Component {
                 onWebDesign: true,
                 onPrintDesign: false,
                 onWebApp: false,
-                onPhotography: false,
                 isOpen: true,
             });
         }
@@ -45,18 +42,6 @@ class Portfolio extends Component {
             event.preventDefault();
             this.setState({
                 onWebApp: true,
-                onPrintDesign: false,
-                onWebDesign: false,
-                onPhotography: false,
-                isOpen: true,
-            });
-        }
-
-        const Photography = event => {
-            event.preventDefault();
-            this.setState({
-                onPhotography: true,
-                onWebApp: false,
                 onPrintDesign: false,
                 onWebDesign: false,
                 isOpen: true,
@@ -80,7 +65,6 @@ class Portfolio extends Component {
                                     <li><a data-filter="*" href="https://www.facebook.com/lexxus11/" className="current" onClick={allElement}>All</a></li>
                                     <li><a data-filter=".Web-Design" href="https://www.facebook.com/lexxus11/" onClick={webDesign}>Web Design</a></li>
                                     <li><a data-filter=".Web-Application" href="https://www.facebook.com/lexxus11/" onClick={webApp}>Web Application</a></li>               
-                                    <li><a data-filter=".Photography" href="https://www.facebook.com/lexxus11/" onClick={Photography}>Photography</a></li> 
                                 </ul>
                             </div>
                             <div className="gallery-container gallery-fancybox masonry-gallery tumho-masonary">
@@ -99,7 +83,6 @@ class Portfolio extends Component {
                                 <div className={this.state.onWebDesign ? "grid active" : "grid" 
                                     && this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                         
                                     <img src={Gallery_2} alt="" className="img img-responsive"/>
@@ -121,7 +104,6 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                                 <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <img src={Gallery_5} alt="" className="img img-responsive"/>
                                     <div className="icon">
@@ -131,7 +113,6 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                                 <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     
                                     <img src={Gallery_3} alt="" className="img img-responsive"/>
@@ -143,7 +124,6 @@ class Portfolio extends Component {
                                 </div>
                                 <div className={this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>
                                     <img src={Gallery_4} alt="" className="img img-responsive"/>
                                     <div className="icon">
