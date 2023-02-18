@@ -17,7 +17,7 @@ class About extends Component {
                                 <p>I am the type of person that may not able to learn fast, but can deliver the task at it finest level as possible.</p>
                                 
                                 <div className="btns">
-                                    <a href="google.com" className="theme-btn">Download CV</a>
+                                    <a href="https://drive.google.com/file/d/1UT3Tvaa3z07kWoIsqBKDPlqXCw3ZFdPA/view?usp=share_link" target="_blank" rel="noreferrer" className="theme-btn">Download CV</a>
                                 </div>
                             </div>
                         </div>
