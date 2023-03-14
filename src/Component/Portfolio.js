@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Gallery_1 from '../Assets/Images/gallery/GNY-web-370x400-DisTicaret.jpg';
+import Gallery_1 from '../Assets/Images/gallery/appagcs2.png';
 import Gallery_2 from '../Assets/Images/gallery/VoIP_1.jpg-1-370x400.png';
 import Gallery_3 from '../Assets/Images/gallery/network-maintenance-370x400.png';
 import Gallery_4 from '../Assets/Images/gallery/web-370x400.jpg';
@@ -75,7 +75,7 @@ class Portfolio extends Component {
                                     }>
                                    <img src={Gallery_1} className="img img-responsive" alt="" />
                                     <div className="icon">
-                                        <a href="https://www.facebook.com/lexxus11/" className="view-icon">
+                                        <a href="https://capstone-sepia.vercel.app/login" className="view-icon">
                                             <FontAwesomeIcon icon={faPlus} />
                                         </a>
                                     </div>
